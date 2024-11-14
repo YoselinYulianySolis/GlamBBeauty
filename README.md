@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComprasOnline.com</title>
-    <link rel="stylesheet" href="estilos.css"> <!-- Aquí puedes agregar tu archivo CSS -->
+    <title>Tienda Online de Maquillaje</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- Vinculamos el archivo CSS -->
 </head>
 <body>
+    <header>
         <div class="logo">
-            <h1>Tienda Maquillaje</h1>
+            <h1>Tienda de Maquillaje</h1>
         </div>
         <nav>
             <ul>
@@ -18,53 +19,63 @@
             </ul>
         </nav>
     </header>
-    <section id="productos" class="productos">
+    <aside id="categorias">
+        <h2>Clasificar por</h2>
+        <ul>
+            <li><a href="#">Bases</a></li>
+            <li><a href="#">Labiales</a></li>
+            <li><a href="#">Sombras</a></li>
+            <li><a href="#">Máscaras de Pestañas</a></li>
+        </ul>
+
+        <h3>Filtrar por precio</h3>
+        <form action="#" method="get">
+            <label for="precio-bajo">Precio Bajo:</label>
+            <input type="number" id="precio-bajo" name="precio-bajo" placeholder="Desde $">
+            <label for="precio-alto">Precio Alto:</label>
+            <input type="number" id="precio-alto" name="precio-alto" placeholder="Hasta $">
+            <button type="submit">Aplicar filtro</button>
+        </form>
+    </aside>
+    <section id="productos">
         <h2>Productos Destacados</h2>
         <div class="producto">
             <img src="base_maquillaje.jpg" alt="Base de Maquillaje">
             <h3>Base de Maquillaje</h3>
-            <p>Descripción corta del producto.</p>
-            <p>Precio: $25.00</p>
+            <p>Base líquida para una piel perfecta.</p>
+            <p class="precio">$20.00</p>
             <button>Agregar al carrito</button>
         </div>
+
         <div class="producto">
             <img src="labial.jpg" alt="Labial Rojo">
             <h3>Labial Rojo</h3>
-            <p>Descripción corta del producto.</p>
-            <p>Precio: $15.00</p>
+            <p>Labial de larga duración con acabado mate.</p>
+            <p class="precio">$12.00</p>
             <button>Agregar al carrito</button>
         </div>
+
         <div class="producto">
-            <img src="maquillaje_ojos.jpg" alt="Sombras de Ojos">
+            <img src="sombras_ojos.jpg" alt="Sombras de Ojos">
             <h3>Sombras de Ojos</h3>
-            <p>Descripción corta del producto.</p>
-            <p>Precio: $18.00</p>
+            <p>Paleta de sombras con tonos vibrantes.</p>
+            <p class="precio">$18.00</p>
             <button>Agregar al carrito</button>
         </div>
-    </section>
-    <section id="categorias" class="categorias">
-        <h2>Categorías</h2>
-        <ul>
-            <li><a href="#">Bases y Fondos</a></li>
-            <li><a href="#">Labiales</a></li>
-            <li><a href="#">Sombras de Ojos</a></li>
-            <li><a href="#">Máscara de Pestañas</a></li>
-            <li><a href="#">Brochas y Herramientas</a></li>
-        </ul>
     </section>
     <section id="carrito" class="carrito">
         <h2>Tu Carrito</h2>
         <ul>
-            <li>Base de Maquillaje - $25.00</li>
-            <li>Labial Rojo - $15.00</li>
+            <li>Base de Maquillaje - $20.00</li>
+            <li>Labial Rojo - $12.00</li>
         </ul>
-        <p><strong>Total: $40.00</strong></p>
+        <p><strong>Total: $32.00</strong></p>
         <button>Proceder al pago</button>
     </section>
     <footer>
         <p>&copy; 2024 Tienda Online de Maquillaje | Todos los derechos reservados.</p>
     </footer>
 
-    <script src="scripts.js"></script> <!-- Aquí puedes agregar tu archivo JavaScript -->
+    <script src="scripts.js"></script> <!-- Puedes agregar tu archivo JavaScript si lo necesitas -->
 </body>
 </html>
