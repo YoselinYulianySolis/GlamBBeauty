@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online de Maquillaje</title>
     <link rel="stylesheet" href="estilos.css"> <!-- Vinculamos el archivo CSS -->
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div class="logo.png">
             <h1>Tienda de Maquillaje</h1>
         </div>
         <nav>
