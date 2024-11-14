@@ -27,7 +27,6 @@
             <li><a href="#">Sombras</a></li>
             <li><a href="#">Máscaras de Pestañas</a></li>
         </ul>
-
         <h3>Filtrar por precio</h3>
         <form action="#" method="get">
             <label for="precio-bajo">Precio Bajo:</label>
@@ -46,7 +45,6 @@
             <p class="precio">$20.00</p>
             <button>Agregar al carrito</button>
         </div>
-
         <div class="producto">
             <img src="labial.jpg" alt="Labial Rojo">
             <h3>Labial Rojo</h3>
@@ -54,7 +52,6 @@
             <p class="precio">$12.00</p>
             <button>Agregar al carrito</button>
         </div>
-
         <div class="producto">
             <img src="sombras_ojos.jpg" alt="Sombras de Ojos">
             <h3>Sombras de Ojos</h3>
@@ -75,7 +72,6 @@
     <footer>
         <p>&copy; 2024 Tienda Online de Maquillaje | Todos los derechos reservados.</p>
     </footer>
-
     <script src="scripts.js"></script> <!-- Puedes agregar tu archivo JavaScript si lo necesitas -->
 </body>
 </html>
