@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css"> <!-- Vinculamos el archivo CSS -->
+    <link rel="stylesheet" href="estilos.css"> 
+    <link rel="icon" type="image/png" href="logo.png">
+    <script src="script.js"></script> <!-- Enlace en el head -->
 </head>
-<body>
     <header>
+        <center>
         <div class="logo.png">
-            <h1>Tienda de Maquillaje</h1>
+            <h1>Glam Beauty</h1>
         </div>
+    </center>
         <nav>
             <ul>
                 <li><a href="#productos">Productos</a></li>
@@ -19,13 +22,6 @@
         </nav>
     </header>
     <aside id="categorias">
-        <h2>Clasificar por</h2>
-        <ul>
-            <li><a href="#">Bases</a></li>
-            <li><a href="#">Labiales</a></li>
-            <li><a href="#">Sombras</a></li>
-            <li><a href="#">Máscaras de Pestañas</a></li>
-        </ul>
         <h3>Filtrar por precio</h3>
         <form action="#" method="get">
             <label for="precio-bajo">Precio Bajo:</label>
@@ -36,25 +32,30 @@
         </form>
     </aside>
     <section id="productos">
-        <h2>Productos Destacados</h2>
         <div class="producto">
-            <img src="base_maquillaje.jpg" alt="Base de Maquillaje">
             <h3>Base de Maquillaje</h3>
             <p>Base líquida para una piel perfecta.</p>
+            <img src="base1.jpeg" alt="Base de Maquillaje">
+            <img src="base2.jpeg" alt="Base de Maquillaje">
+            <img src="base3.jpeg" alt="Base de Maquillaje">
             <p class="precio">$20.00</p>
             <button>Agregar al carrito</button>
         </div>
         <div class="producto">
-            <img src="labial.jpg" alt="Labial Rojo">
-            <h3>Labial Rojo</h3>
-            <p>Labial de larga duración con acabado mate.</p>
+            <h3>Gloss</h3>
+            <p>Efecto Glowy</p>
+            <img src="gloss1.jpeg" alt="Labial Rojo">
+            <img src="gloss2.jpeg" alt="Labial Rojo">
+            <img src="gloss3.jpeg" alt="Labial Rojo">
             <p class="precio">$12.00</p>
             <button>Agregar al carrito</button>
         </div>
         <div class="producto">
-            <img src="sombras_ojos.jpg" alt="Sombras de Ojos">
-            <h3>Sombras de Ojos</h3>
-            <p>Paleta de sombras con tonos vibrantes.</p>
+            <h3>Rubor</h3>
+            <p>Alta pigmentacion vibrante.</p>
+            <img src="rubor1.jpeg" alt="rosapimky">
+            <img src="rubor2.jpeg" alt="rosapimky">
+            <img src="rubor3.jpeg" alt="rosapimky">
             <p class="precio">$18.00</p>
             <button>Agregar al carrito</button>
         </div>
@@ -62,15 +63,17 @@
     <section id="carrito" class="carrito">
         <h2>Tu Carrito</h2>
         <ul>
-            <li>Base de Maquillaje - $20.00</li>
-            <li>Labial Rojo - $12.00</li>
+            <!-- El carrito comienza vacío -->
         </ul>
-        <p><strong>Total: $32.00</strong></p>
+        <p><strong>Total: $0.00</strong></p>
         <button>Proceder al pago</button>
     </section>
-    <footer>
+    <div class="footer"
+ 
+        <p>Calle Obrera #1106 Col.Santa Cecilia, CP.88962, Reynosa,Tamaulipas; 8991311347</p>
         <p>&copy; 2024 Tienda Online de Maquillaje | Todos los derechos reservados.</p>
     </footer>
-    <script src="scripts.js"></script> <!-- Puedes agregar tu archivo JavaScript si lo necesitas -->
+</div>
+    <script src="archivo.js"></script> <!-- Puedes agregar tu archivo JavaScript si lo necesitas -->
 </body>
 </html>
