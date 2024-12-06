@@ -1,0 +1,121 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Carrusel de imágenes */
+.carrusel {
+  margin: 20px 0;
+  position: justify;
+  width: 15%;
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Productos */
+.productos {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.productos-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+}
+
+.producto p {
+  margin-top: 10px;
+}
+
+/* Carrito */
+#carrito {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#cart-items {
+  list-style-type: none;
+}
+
+#cart-items li {
+  margin-bottom: 10px;
+}
